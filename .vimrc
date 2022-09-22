@@ -1,3 +1,6 @@
+" Set colorscheme to elflord
+colorscheme elflord
+
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
  
