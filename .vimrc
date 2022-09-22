@@ -67,3 +67,12 @@ set wildmenu
  
 " Make wildmenu behave like similar to Bash completion.
 set wildmode=list:longest
+
+" autoclose brackets
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
