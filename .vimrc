@@ -1,8 +1,8 @@
-" Set colorscheme to elflord
-colorscheme elflord
-
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
+
+" Set colorscheme to elflord
+colorscheme elflord
  
 " Enable type file detection. Vim will be able to try to detect the type of file in use.
 filetype on
