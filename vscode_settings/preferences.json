@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "editor.fontFamily": "FiraCode NF",
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+
+    // Sennò bugga for some reason con la shortcut indent and outdent 
+    "keyboard.dispatch": "keyCode",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false
+}
