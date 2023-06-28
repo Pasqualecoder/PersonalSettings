@@ -1,0 +1,48 @@
+{
+    "/dev/sda": {
+        "partitions": [
+            {
+                "ESP": true,
+                "PARTUUID": "38dba733-da4f-42eb-b80c-41f6b2d15aa2",
+                "boot": true,
+                "encrypted": false,
+                "filesystem": {
+                    "format": null
+                },
+                "mountpoint": null,
+                "size": 2097152,
+                "start": 2048,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": "25a1e259-d7d0-45bd-89e1-26344e74767f",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": null
+                },
+                "mountpoint": null,
+                "size": 1048576,
+                "start": 2099200,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": "14bd41d4-23db-4561-86c2-b94e1d7cc3a1",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": null
+                },
+                "mountpoint": null,
+                "size": 13627392,
+                "start": 3147776,
+                "type": "primary",
+                "wipe": false
+            }
+        ]
+    }
+}

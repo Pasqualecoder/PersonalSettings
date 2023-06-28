@@ -1,0 +1,53 @@
+{
+    "additional-repositories": [
+        "multilib"
+    ],
+    "audio": "pipewire",
+    "config_version": "2.5.6",
+    "debug": false,
+    "desktop-environment": "lxqt",
+    "gfx_driver": "VMware / VirtualBox (open-source)",
+    "harddrives": [
+        "/dev/sda"
+    ],
+    "hostname": "PC-studente1",
+    "kernels": [
+        "linux-lts"
+    ],
+    "keyboard-layout": "it",
+    "mirror-region": {
+        "Italy": {
+            "http://archlinux.mirror.garr.it/archlinux/$repo/os/$arch": true,
+            "https://archmirror.it/repos/$repo/os/$arch": true
+        }
+    },
+    "nic": {
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": "iso"
+    },
+    "no_pkg_lookups": false,
+    "offline": false,
+    "packages": [
+        "vim",
+        "micro",
+        "nano",
+        "code",
+        "firefox",
+        "ranger",
+        "atool",
+        "neofetch"
+    ],
+    "profile": {
+        "path": "/usr/lib/python3.11/site-packages/archinstall/profiles/desktop.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "sys-encoding": "utf-8",
+    "sys-language": "it_IT.UTF-8",
+    "timezone": "Europe/Rome",
+    "version": "2.5.6"
+}
